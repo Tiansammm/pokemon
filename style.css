@@ -1,0 +1,46 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-image: url(../img/b.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.pokemon{
+    padding-top: 10px;
+    position: relative;
+    text-align: center;
+}
+.text{
+    padding-top: 10px;
+    position: relative;
+    text-align: center;
+    text-shadow: 2px 2px white;
+}
+.container{
+    margin: auto;
+    padding-left: 120px;
+}
+div.pokemonhero{
+    margin: 20px;
+    float: left;
+    width: auto;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+div.pokemonhero:hover{
+    text-decoration: underline;
+    color: orangered;
+}
+.pokemonname{
+    position: relative;
+    text-align: center;
+    top: 5px;
+    font-family: Sans-Serif;
+    font-size: 15px;
+    font-weight: 900;
+}
+.input{
+    text-align: center;
+}
